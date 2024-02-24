@@ -1,16 +1,18 @@
-### Hi there 👋
+## <p align="center">👑</p> <p align="center">📊 Stats 👨‍💻</p>
 
-<!--
-**LKSergio/LKSergio** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- Stats Streak: -->
+<p align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=LKSergio&theme=blueberry&hide_border=true"
+</p>
 
-Here are some ideas to get you started:
+<!--x axis divider-->
+<img src="./gif/horizontal-divider-gradient.gif">
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- Recently listened songs on Spotify: -->
+## <p align="center"> Spotify 🎶</p>
+
+
+<div style="display: flex-start;">
+    <img id="first-image" img src="./gif/Listening_to_music.gif" style="width: 50%;">
+    <img src="https://spotify-github-profile.vercel.app/api/view.svg?uid=z5eu9exjp84clqgzx2n8abtz2&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false">
+</div>
