@@ -1,0 +1,30 @@
+name: Update GitHub Stats
+
+# Defines when the action will be executed. In this case, it's scheduled to run every hour according to the schedule configuration (cron).
+on:
+  schedule:
+    - cron: "0 * * * *" # Schedule the execution every hour.
+
+jobs:
+  # Defines the name of the job as 'update-readme'.
+  update-readme:
+    # Specifies that the job will run on a Windows operating system.
+    runs-on: windows-latest
+    steps:
+
+        # # This step utilizes the actions/checkout@v2 action to clone the repository in which the action is being executed.
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+        # This step updates the statistics in the README.md file. It uses shell commands (echo and sed) to write the statistics to a temporary file.
+      - name: Update GitHub Stats
+        run: |
+
+          # ...and then inserts them into the README.md using sed.
+          echo '<!-- Stats Streak: -->' > stats.md
+          echo '<p align="center">' >> stats.md
+          echo '    <img src="https://github-readme-streak-stats.herokuapp.com/?user=LKSergio&theme=blueberry&hide_border=false"' >> stats.md
+          echo '</p>' >> stats.md
+          sed -i '/<!-- Stats Streak: -->/{r stats.md' -e 'd}' README.md
+        env:
+          TZ: America/Managua # Set up the time zone if necessary.
