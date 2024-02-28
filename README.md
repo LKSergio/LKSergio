@@ -2,7 +2,7 @@
 
 <!-- Stats Streak: -->
 <p align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=LKSergio&theme=blueberry&hide_border=true"
+    <img src= 'https://github-readme-streak-stats.herokuapp.com/?user=lksergio&theme=blueberry&hide_border=true'>
 </p>
 
 <!--x axis divider-->
