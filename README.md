@@ -13,6 +13,7 @@
 
 
 <div style="display: flex-start;">
-    <img id="first-image" img src="./gif/Listening_to_music.gif" style="width: 50%;">
-    <img src="https://spotify-github-profile.vercel.app/api/view.svg?uid=z5eu9exjp84clqgzx2n8abtz2&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false">
+    <img src="./gif/Listening_to_music.gif" alt="first-image" width="50%">
+    <img src="https://spotify-github-profile.kittinanx.com/api/view.svg?uid=z5eu9exjp84clqgzx2n8abtz2&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color_cover=true&bar_color=22fd02" alt="Spotify">
+
 </div>
